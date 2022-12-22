@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17441958, g: 0.21814045, b: 0.3003748, a: 1}
+  m_IndirectSpecularColor: {r: 0.17441957, g: 0.2181403, b: 0.3003743, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -706,6 +706,7 @@ GameObject:
   - component: {fileID: 928590842}
   - component: {fileID: 928590841}
   - component: {fileID: 928590845}
+  - component: {fileID: 928590846}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -809,6 +810,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InfoPopup: {fileID: 1175332867}
   ResourceDB: {fileID: 11400000, guid: eac40d5a11488c94dbf95ec31bbd2122, type: 2}
+--- !u!114 &928590846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928590840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b895cc3c09f7174ebfee4abbed0d1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returnToMenu: {fileID: 2124815722}
 --- !u!1 &970575385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,7 +2201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124815723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2124815723
 MonoBehaviour:
   m_ObjectHideFlags: 0
